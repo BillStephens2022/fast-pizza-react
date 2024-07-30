@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Home from "./ui/Home";
 import Menu, { loader as menuLoader } from "./features/menu/Menu";
 import Cart from "./features/cart/Cart";
@@ -8,7 +8,7 @@ import AppLayout from "./ui/AppLayout";
 import Error from "./ui/Error";
 import { action as updateOrderAction } from "./features/order/UpdateOrder";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     element: <AppLayout />,
     errorElement: <Error />,  // this will display an error message if any of the routes fail
