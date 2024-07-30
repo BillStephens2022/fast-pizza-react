@@ -5,7 +5,7 @@ import eslint from "vite-plugin-eslint";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), eslint()],
-  base: '/fast-react-pizza/',
+  base: '/fast-pizza-react/',
   // server: {
   //   hmr: {
   //     overlay: false,
