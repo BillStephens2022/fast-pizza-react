@@ -3,6 +3,15 @@
   ## Description
 
   An online Pizza delivery business built with React, Redux, and TailwindCSS.  Utilizes an API for feching menu items.  Order pizzas,  review your order in the cart and enter delivery information with ability to use geolocation to get address.
+
+  ### Deployed URL:  https://billstephens2022.github.io/fast-pizza-react/
+
+  ### App Screenshots
+  ![home screen](./public/screenshot1.png)
+  ![menu screen](./public/screenshot2.png)
+  ![cart screen](./public/screenshot3.png)
+  ![delivery info form screen](./public/screenshot4.png)
+  ![order summary screen](./public/screenshot5.png)
   
   ## Table of Contents
   
